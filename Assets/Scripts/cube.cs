@@ -23,12 +23,12 @@ public class cube : MonoBehaviour
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime * v);
         transform.Rotate(Vector3.up * turnSpeed * Time.deltaTime * h);
     }
-        private void OnCollisionEnter(Collision coll)
-        { 
-            if (coll.collider.CompareTag("CollisionObject"))
-            {
-                Destroy(coll.gameObject);
-            }
-        }
+
+    private void OnCollisionEnter(Collision collision)
+    {
     
+            Destroy(this.gameObject);
+                
+
+    }
 }
