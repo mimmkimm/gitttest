@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class cube : MonoBehaviour
 {
-    public float moveSpeed = 20.0f;
+    public float moveSpeed = 80.0f;
     public float turnSpeed = 80.0f;
-    
+   
     private float h;
     private float v;
 
@@ -23,4 +23,12 @@ public class cube : MonoBehaviour
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime * v);
         transform.Rotate(Vector3.up * turnSpeed * Time.deltaTime * h);
     }
+        private void OnCollisionEnter(Collision coll)
+        { 
+            if (coll.collider.CompareTag("CollisionObject"))
+            {
+                Destroy(coll.gameObject);
+            }
+        }
+    
 }

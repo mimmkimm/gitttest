@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 1143584163}
   m_Layer: 0
   m_Name: test_Cube (1)
-  m_TagString: Untagged
+  m_TagString: MovingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 1674679481}
   m_Layer: 0
   m_Name: test_water
-  m_TagString: Untagged
+  m_TagString: CollisionObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1019,7 +1019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674679480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1, y: 1.2, z: 3.54}
+  m_LocalPosition: {x: -6.509, y: 1.2, z: 4.019}
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
