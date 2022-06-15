@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - CollisionObject
-  - MovingObject
+  - Ignite
   layers:
   - Default
   - TransparentFX
@@ -15,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Grabbable
+  - Hands
+  - Teleporter
+  - NoHandCollide
   - 
   - 
   - 
